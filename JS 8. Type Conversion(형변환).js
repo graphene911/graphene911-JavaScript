@@ -45,6 +45,8 @@ console.log(Number("1234")) // => 1234
 // 만약 숫자가 아닌 문자가 포함 된다면 NaN이 되니 주의해야 한다.
 console.log(Number(true),Number(false));
 // Number는 true와 false일 경우 1과 0으로 표시된다.
+// Number(null) == 0
+// Number(undefined) == NaN
 
 // 3. Boolean
 // Boolean은 0, ""(빈문자열), null, undefined, NaN을 제외하고 모두 true로 표시된다.
